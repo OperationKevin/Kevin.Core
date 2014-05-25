@@ -8,7 +8,7 @@ namespace Kevin.Core
 	{
 
 		public override Result getResult(string mess) {
-			if (Regex.IsMatch (mess, @"whos there\b")) {
+			if (Regex.IsMatch (mess, @"(?i)who((')?s)?( is)? there\b")) {
 				return new Result ((string message, Output output) => {
 					output.send("me, Kevin.");
 				});

@@ -11,7 +11,7 @@ namespace Kevin.Core
 
 
 		public override Result getResult(string mess) {
-			if (Regex.IsMatch (mess, @"test\b")) {
+			if (Regex.IsMatch (mess, @"(?i)test\b")) {
 				return new Result ((string message, Output output) => {
 					output.send("Test Success");
 				});
