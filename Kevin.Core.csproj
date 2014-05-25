@@ -7,7 +7,6 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Kevin.Core</RootNamespace>
     <AssemblyName>Kevin.Core</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
